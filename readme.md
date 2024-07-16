@@ -37,3 +37,35 @@ Click any of the four buttons to trigger a toast notification. Each button corre
 *Description of the image*
 
 
+## 2. FileExplorer
+
+FileExplorer is a React component designed to display a file system structure with folders and files. This component allows users to click on folders to reveal their contents, displaying an icon and name for each item.
+
+### Features
+
+- **Folder and File Icons**: Displays appropriate icons for folders and files.
+- **Toggle Children**: Click on a folder to toggle the visibility of its contents.
+- **Recursive Rendering**: Renders nested folder structures recursively.
+
+## Usage
+
+### Displaying Folder Contents
+
+Click on a folder name to toggle the display of its children (subfolders and files).
+
+### Project Structure
+
+- `src/`: Contains the source code for the React application.
+  - `components/`: Contains the React components.
+    - `FileExplorer.js`: The main component for displaying folders and files.
+  - `App.js`: The main application component.
+  - `index.js`: The entry point of the application.
+
+
+### Photos
+
+![FileExplorer](Photos/Folder.png)
+
+![folderStruture](Photos/FolderStruture.png)
+
+![folderStruture](Photos/FullFolderBody.png)
