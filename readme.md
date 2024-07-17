@@ -25,8 +25,8 @@ Click any of the four buttons to trigger a toast notification. Each button corre
 
 - `src/`: Contains the source code for the React application.
   - `components/`: Contains the React components.
-  - `App.js`: The main application component.
-  - `index.js`: The entry point of the application.
+  - `App.jsx`: The main application component.
+  - `index.jsx`: The entry point of the application.
 
 ### Photos
 
@@ -57,9 +57,9 @@ Click on a folder name to toggle the display of its children (subfolders and fil
 
 - `src/`: Contains the source code for the React application.
   - `components/`: Contains the React components.
-    - `FileExplorer.js`: The main component for displaying folders and files.
-  - `App.js`: The main application component.
-  - `index.js`: The entry point of the application.
+    - `FileExplorer.jsx`: The main component for displaying folders and files.
+  - `App.jsx`: The main application component.
+  - `index.jsx`: The entry point of the application.
 
 
 ### Photos
@@ -69,3 +69,36 @@ Click on a folder name to toggle the display of its children (subfolders and fil
 ![folderStruture](Photos/FolderStruture.png)
 
 ![folderStruture](Photos/FullFolderBody.png)
+
+
+## 2. Accordions / Faq's
+
+It is just normal Accordians / Faq's
+
+### Features
+
+- **Folder and File Icons**: Displays appropriate icons for folders and files.
+- **Toggle Children**: Click on a folder to toggle the visibility of its contents.
+
+## Usage
+
+### Displaying Folder Contents
+
+Click on icons to show the Faq's
+
+### Project Structure
+
+- `src/`: Contains the source code for the React application.
+  - `components/`: Contains the React components.
+    - `Accordion.jsx`: The main component for displaying folders and files.
+    - `Faqs.jsx`: This file contain the logic how to show the accordians
+  - `App.jsx`: The main application component.
+  - `main.jsx`: The entry point of the application.
+
+
+### Photos
+
+![FileExplorer](Photos/qustionFaqs.png)
+
+![folderStruture](Photos/openFaqs.png)
+
