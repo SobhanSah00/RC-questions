@@ -1,9 +1,9 @@
-import OtpForm from "./components/OtpForm/OtpForm"
+// import OtpForm from "./components/OtpForm/OtpForm"
 function App() {
 
   return (
     <>
-      <OtpForm otpLength={4}/>
+      {/* <OtpForm otpLength={4}/> */}
     </>
   )
 }
