@@ -43,7 +43,7 @@ function VirtualizedList({ List , ContainerHeight , ContainerWidth , ItemHeight}
   )
 }
 
-VirtualizedList.prototype = {
+VirtualizedList.propTypes = {
   List:PropTypes.array.isRequired,
   ContainerHeight:PropTypes.number.isRequired,
   ContainerWidth:PropTypes.number.isRequired,
