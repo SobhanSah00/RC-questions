@@ -43,8 +43,8 @@ function Stepper({ steps }) {
       </div>
 
       <div className='stepper-control'>
-          <button onClick={handelBack}>Back</button>
-          <button onClick={handelContinue}>Continue</button>
+          <button onClick={handelBack} disabled={currentStep === 0}>Back</button>
+          <button onClick={handelContinue} disabled={currentStep === steps.length - 1}>Continue</button>
       </div>
     </div>
 
