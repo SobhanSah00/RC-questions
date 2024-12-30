@@ -1,0 +1,34 @@
+{
+    "comments" : {
+        "1" :{
+            "id" : "1",
+            "value" : "How are u",
+            "parentId" : null,
+            "children" : [2,3]
+        },
+        "2" :{
+            "id" : "2",
+            "value" : "I am good",
+            "parentId" : "1",
+            "children" : []
+        },
+        "3" :{
+            "id" : "3",
+            "value" : "kaat rahi he zindegi",
+            "parentId" : "1",
+            "children" : [4]
+        },
+        "4" : {
+            "id" : "4",
+            "value" : "what is wrong with u",
+            "parentId" : "3",
+            "children" : [5]
+        },
+        "5" : {
+            "id" : "5",
+            "value" : "nothing",
+            "parentId" : "4",
+            "children" : []
+        }
+    }
+}
